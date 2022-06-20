@@ -7,10 +7,10 @@ export default function getFullResponseFromAPI(success) {
       };
       resolve(response);
     } else if (success === false) {
-        reject(Error('The fake API is not working currently'));
+      reject(Error('The fake API is not working currently'));
     }
   }));
-    promise.catch(((err) => console.log(err)))
+  promise.catch(((err) => console.log(err)));
 
   return promise;
 }
