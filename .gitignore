@@ -6,18 +6,4 @@ tests.js
 
 *tests.ts
 
-*js_dir_installation_kit.sh
-
-installation_script.sh
-
 *main.js
-
-package.json
-
-babel.config.js
-
-.eslintrc.js
-
-package-lock.json
-
-*/node_modules/*
