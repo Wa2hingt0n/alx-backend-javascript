@@ -60,7 +60,7 @@ const express = require('express');
 
 const port = 1245;
 const DATABASE = process.argv.length > 2 ? process.argv[2] : '';
-const app = express;
+const app = express();
 
 app.get('/', (_, res) => {
   res.send('Hello Holberton School!');
