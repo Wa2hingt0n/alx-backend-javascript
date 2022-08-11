@@ -1,6 +1,6 @@
 // Test cases for the calculateNumber function
 const expect = require('chai').expect;
-const calculateNumber = require('./2-calcul');
+const calculateNumber = require('./2-calcul_chai');
 
 describe('Tests the calculateNumber function', () => {
     describe('When type == "SUM"', () => {
