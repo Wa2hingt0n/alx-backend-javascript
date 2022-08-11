@@ -34,4 +34,3 @@ describe('API integration test', () => {
     });
   });
 });
-});
